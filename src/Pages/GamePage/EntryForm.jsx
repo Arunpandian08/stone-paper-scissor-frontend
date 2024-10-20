@@ -10,6 +10,7 @@ const EntryForm = ({handleGameStart,setPlayer1Name,setPlayer2Name,player1Name,pl
                     type="text"
                     className="form-control"
                     value={player1Name}
+                    placeholder='Please enter your name'
                     id="player1Input"
                     required
                     onChange={e => setPlayer1Name(e.target.value)}
@@ -20,6 +21,7 @@ const EntryForm = ({handleGameStart,setPlayer1Name,setPlayer2Name,player1Name,pl
                 <input
                     type="text"
                     value={player2Name}
+                    placeholder='Please enter your name'
                     className="form-control"
                     id="player2Input"
                     required
